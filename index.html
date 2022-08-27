@@ -12,9 +12,70 @@
     <title>Signos Del Zodiaco </title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+
+    </header>
+    <main class="container">
+<section>
+    <div class="border text-center mt-4">
+        <h4>Buscar signo por</h4>
+    </div>
+    <article class="row mt-4 colorInput">
+        <aside class="border col-lg-6 col-md-12 col-sm-12 text-center">
+            <div class="mb-3">
+                <label for="imagen">Fecha de nacimiento</label>
+                <input
+                  id="imagen"
+                  type="date"
+                  class="form-control"
+                  placeholder="xx/xx/xxxx"
+                  maxlength="12"
+                  minlength="1"
+                />
+                <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">prueba de feedback</div>
+              </div>
+        </aside>
+        <aside class="border col-lg-6 col-md-12 col-sm-12 text-center">
+            <div class="mb-3">
+                    <label for="elemento">Elegir un elemento</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona un elemento</option>
+                        <option value="1">Agua</option>
+                        <option value="2">Fuego</option>
+                        <option value="3">Tierra</option>
+                        <option value="3">Aire</option>
+                      </select>
+                <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">prueba de feedback</div>
+              </div> 
+        </aside>
+    </article>
+</section>
+<section class="fuenteLetra">
+    <article class="row mt-5 colorLetra">
+        <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
+            <h2>Tierra</h2>
+            <img src="https://static-blogs.mujerhoy.com/horoscopo-para-las-estrellas/wp-content/uploads/sites/30/2018/03/tierra-1024x889.jpg" alt=" imagen elemento tierra">
+        </aside>     
+        <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
+            <h2>Signo</h2>
+            <ul class="mt-5 fs-1">
+                <li>Tauro</li>
+                <li>Virgo</li>
+                <li>Capricornio</li>
+            </ul>
+        </aside>     
+        <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
+            <h2>Naturaleza</h2>
+            <p></p>
+        </aside>     
+    </article>
+</section>
+    </main>
+    <footer class="bg-dark text-bg-dark text-center py-3">
+<h5>&copy;Todos los derechos reservado</h5>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js" type="module"></script>
 </body>
