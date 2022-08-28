@@ -26,3 +26,9 @@ li{
 font-family: 'Dosis', sans-serif;
 font-family: 'Orbitron', sans-serif;
 }
+
+@media all and (max-width: 767px){
+    .margenCelular{
+        margin: 15px;
+    }
+}
