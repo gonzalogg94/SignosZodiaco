@@ -1,4 +1,32 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dosis:wght@300&family=Orbitron:wght@500&display=swap');
+
+.colorInput{
+    background-color: lightblue;
+}
+.colorTierra{
+    color:brown
+}
+.colorAgua{
+    color: blue;
+}
+.colorAire{
+    color: aquamarine;
+}
+.colorFuego{
+    color: orange;
+
+}
+li{
+    list-style: none;
+}
+
+.fuenteLetra{
+    font-family: 'Black Han Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Orbitron', sans-serif;
+}
+
 @media all and (max-width: 767px){
     .margenCelular{
         margin: 15px;
