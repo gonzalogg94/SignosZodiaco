@@ -38,7 +38,7 @@ btnmostrarDatos.addEventListener("click", () =>
       elementoFuego.className = "row my-5 colorFuego";
       let elementoTierra = document.querySelector("#elementoTierra");
       elementoTierra.className = "row mt-5 colorTierra d-none";
-      let elementoAire = document.querySelector("#elementoAire");
+      let elementoAire = document.querySelector("#elementoAire"); 
       elementoAire.className = "row mt-5 colorAire d-none";
       }else if(elemento.value==3){
          let elementoAgua = document.querySelector("#elementoAgua");
@@ -58,5 +58,11 @@ btnmostrarDatos.addEventListener("click", () =>
       elementoTierra.className = "row mt-5 colorTierra d-none";
       let elementoAire = document.querySelector("#elementoAire");
       elementoAire.className = "row mt-5 colorAire";
+    }else{
+      Swal.fire({
+         icon: 'error',
+         title: 'Oops...',
+         text: 'Debe seleccionar un elemento',
+       })
     }
    }
