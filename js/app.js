@@ -3,15 +3,14 @@ let formulario = document.querySelector('#formZodiaco');
 let fechaNacimiento = document.querySelector('#fechaNacimiento');
 let elemento=document.querySelector("#elemento")
 let btnmostrarDatos = document.querySelector("#elegirElemento");
-
 // agrego los eventos 
 formulario.addEventListener('submit', mostrarFecha)
 
 // funciones 
 function mostrarFecha(e){
    e.preventDefault();
-   console.log(fechaNacimiento.value)
 }
+
 
 function elegirElemento(elemento){
 
@@ -71,7 +70,6 @@ btnmostrarDatos.addEventListener("click", () =>
       let elementoTierra = document.querySelector("#elementoTierra");
       elementoTierra.className = "row mt-5 colorTierra d-none";
       let elementoAire = document.querySelector("#elementoAire");
-      elementoAire.className = "row mt-5 colorAire d-none";
-       
+      elementoAire.className = "row mt-5 colorAire d-none";       
     }
    }
