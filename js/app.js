@@ -14,9 +14,12 @@ btnmostrarDatos.addEventListener("click", () => mostrarElemento());
 function mostrarFecha(e) {
   e.preventDefault();
 let nacimiento=fechaNacimiento.value
-let diaNacimiento=parseInt(nacimiento.substring(8,10));
-let mesNacimiento=parseInt(nacimiento.substring(5,7));
-  if()
+let dia=parseInt(nacimiento.substring(8,10));
+let mes=parseInt(nacimiento.substring(5,7));
+  if((dia>=21&&mes==3)||(dia<=20&&mes==4)){
+    let aries = document.querySelector("#aries");
+    aries.className = "my-5 card rounded-4 border-dark";
+  }
 }
 
 function mostrarElemento() {
