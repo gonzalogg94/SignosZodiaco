@@ -258,7 +258,7 @@
         </article>
         </section>
 <section>
-    <div class="border text-center mt-4">
+    <div class="border text-center mt-4 bg-dark text-bg-dark card py-2">
         <h4>Buscar signo por</h4>
     </div>
     <article class="row mt-4 colorInput">
@@ -282,13 +282,14 @@
         <aside class="border col-lg-6 col-md-12 col-sm-12 text-center">
             <div class="mb-3">
                     <label for="elemento">Elegir un elemento</label>
-                    <select id="selectorElemento" class="form-select" aria-label="Default select example">
+                    <select id="elemento" class="form-select" aria-label="Default select example">
                         <option selected>Selecciona un elemento</option>
                         <option value="1">Agua</option>
                         <option value="2">Fuego</option>
                         <option value="3">Tierra</option>
-                        <option value="3">Aire</option>
+                        <option value="4">Aire</option>
                       </select>
+                      <button id="elegirElemento" class="btn btn-primary my-4" type="button">Elegir elemento</button>
                 <div class="valid-feedback">Looks good!</div>
               <div class="invalid-feedback">prueba de feedback</div>
               </div> 
@@ -430,7 +431,7 @@
     </article>
 </section>
 <section class="fuenteLetra">
-    <article class="row mt-5 colorTierra d-none">
+    <article id="elementoTierra" class="row mt-5 colorTierra d-none">
         <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
             <h2>Tierra</h2>
             <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1920,h_1080/https://tribusemilla.cl/wp-content/uploads/2020/02/tierra-icono.png" alt=" imagen elemento tierra">
@@ -448,7 +449,7 @@
             <p class="mt-5">Practicidad,sensatez,seguridad</p>
         </aside>     
     </article>
-    <article class="row mt-5 colorAgua d-none">
+    <article id="elementoAgua" class="row mt-5 colorAgua my-3 d-none">
         <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
             <h2>Agua</h2>
             <img src="https://1.bp.blogspot.com/-YF3pLhd3Oxc/W9Hr5rib1xI/AAAAAAAAARE/VB6fJDOGecEvoRboovJhHxsoK9r8UqXYQCLcBGAs/s1600/AGUA.png" class="w-75 ms-5" alt=" imagen elemento agua">
@@ -466,7 +467,7 @@
             <p class="mt-5">Sentimiento,emocion,intuicion</p>
         </aside>     
     </article>
-    <article class="row mt-5 colorAire d-none">
+    <article id="elementoAire" class="row mt-5 colorAire d-none">
         <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
             <h2>Aire</h2>
             <img src="https://cdn-icons-png.flaticon.com/512/75/75545.png" class="w-75 ms-5" alt=" imagen elemento Aire">
@@ -484,7 +485,7 @@
             <p class="mt-5">Comunicacion,Intelecto,Ingenio</p>
         </aside>     
     </article>
-    <article class="row my-5 colorFuego d-none">
+    <article id="elementoFuego" class="row my-5 colorFuego d-none">
         <aside class="col-lg-4 col-md-4 col-sm-12 card text-center ">
             <h2>Fuego</h2>
             <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1920,h_1080/https://tribusemilla.cl/wp-content/uploads/2020/02/tierra-icono.png" alt=" imagen elemento tierra">
