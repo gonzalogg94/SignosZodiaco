@@ -64,5 +64,14 @@ btnmostrarDatos.addEventListener("click", () =>
          title: 'Oops...',
          text: 'Debe seleccionar un elemento',
        })
+       let elementoAgua = document.querySelector("#elementoAgua");
+         elementoAgua.className = "row mt-5 colorAgua my-3 d-none";
+         let elementoFuego = document.querySelector("#elementoFuego");
+      elementoFuego.className = "row my-5 colorFuego d-none";
+      let elementoTierra = document.querySelector("#elementoTierra");
+      elementoTierra.className = "row mt-5 colorTierra d-none";
+      let elementoAire = document.querySelector("#elementoAire");
+      elementoAire.className = "row mt-5 colorAire d-none";
+       
     }
    }
